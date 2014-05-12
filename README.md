@@ -9,3 +9,6 @@ EthernetV2_0  | W5200 Ethernet Shield | http://www.seeedstudio.com/wiki/File:W52
 Humidity_Temperature_Sensor  | Grove - Temp. & Humi. Sensor (DHT11) | https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor
 Barometer_Sensor | Grove - Barometer Sensor (BMP085) | http://www.seeedstudio.com/wiki/File:Barometer_Sensor.zip
 
+Um die Bibliotheken manuell zu installieren, downloaded die Dateien und kopiert den Inhalt in euer 
+_.../ArduinoOrdner/libraries/_ 
+Verzeichnis. Danach muss die Arduino IDE neu gestartet werden, damit die Erweiterungen initialisiert werden können.
