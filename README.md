@@ -3,7 +3,7 @@ Arduino-Bibliotheken
 
 In diesem Repository befinden sich alle zusätzlichen Bibliotheken, die für die SenseBox Umweltstation benötigt werden.
 Den Inhalt des Repositories herunterladen und in euer _.../ArduinoOrdner/libraries/_ 
-Verzeichnis kopieren. Die Arduino IDE muss danach neu gestartet werden, damit die Erweiterungen initialisiert werden können.
+  Verzeichnis kopieren. Die Arduino IDE muss danach neu gestartet werden, damit die Erweiterungen initialisiert werden können.
 
 
 Die Bibliotheken wurden von Seeedstudio zur Verfügung gestellt und können auch direkt von der ursprünglichen Quelle herunter geladen werden:
