@@ -1,4 +1,4 @@
-Arduino-Software 
+Arduino-Bibliotheken
 =======
 
 In diesem Repository befinden sich alle zusätzlichen Bibliotheken, die für die SenseBox Umweltstation benötigt werden.
