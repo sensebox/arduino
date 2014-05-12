@@ -1,14 +1,16 @@
 Arduino-Software 
 =======
 
-Hier findet ihr eine zip-Datei mit der Arduino 1.0.5 IDE für Windows. Die Version beinhaltet außerdem direkt die folgenden Bibliotheken, welche für die SenseBox Umweltstation benötigt werden:
+In diesem Repository befinden sich alle zusätzlichen Bibliotheken, die für die SenseBox Umweltstation benötigt werden.
+Den Inhalt des Repositories herunterladen und in euer _.../ArduinoOrdner/libraries/_ 
+Verzeichnis kopieren. Die Arduino IDE muss danach neu gestartet werden, damit die Erweiterungen initialisiert werden können.
+
+
+Die Bibliotheken wurden von Seeedstudio zur Verfügung gestellt und können auch direkt von der ursprünglichen Quelle herunter geladen werden:
+
 
 Name der Blibliothek  | Benötigt für Komponente | Direkter Link zur Bibliothek
 ------------- | ------------- | -------------
 EthernetV2_0  | W5200 Ethernet Shield | http://www.seeedstudio.com/wiki/File:W5200_Ethernet_Shield_Library.zip
 Humidity_Temperature_Sensor  | Grove - Temp. & Humi. Sensor (DHT11) | https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor
 Barometer_Sensor | Grove - Barometer Sensor (BMP085) | http://www.seeedstudio.com/wiki/File:Barometer_Sensor.zip
-
-Um die Bibliotheken manuell zu installieren, downloaded die Dateien und kopiert den Inhalt in euer 
-_.../ArduinoOrdner/libraries/_ 
-Verzeichnis. Danach muss die Arduino IDE neu gestartet werden, damit die Erweiterungen initialisiert werden können.
