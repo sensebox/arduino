@@ -25,7 +25,7 @@
 void Barometer::init(void)
 {
     Wire.begin();
-    Serial.print("Temperaturet: ");
+    //Serial.print("Temperaturet: ");
     ac1 = bmp085ReadInt(0xAA);
     ac2 = bmp085ReadInt(0xAC);
     ac3 = bmp085ReadInt(0xAE);
@@ -37,7 +37,7 @@ void Barometer::init(void)
     mb = bmp085ReadInt(0xBA);
     mc = bmp085ReadInt(0xBC);
     md = bmp085ReadInt(0xBE);
-    Serial.print("Temperaturet2: ");
+    //Serial.print("Temperaturet2: ");
 }
 // Read 1 byte from the BMP085 at 'address'
 // Return: the read byte;
